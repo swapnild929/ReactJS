@@ -1,0 +1,154 @@
+  :root {
+    --pallette_1: #ededed;
+    --pallette_2: #777777;
+    --pallette-3: #444444;
+    --pallette_4: #0011bb;
+    --pallette_5: #6600cc;
+    --black: #000000;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    align-items: center;
+    background-color: var(--pallette_1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header .logo img {
+    width: 90px;
+    
+  }
+  
+  header .title {
+    color: var(---pallette_2);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-left: 105px;
+    margin-top:35px;
+  }
+  
+  a {
+    color: var(--pallette_5);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: var(--pallette_4);
+  }
+  
+  .container {
+    margin: auto;
+    max-width: 45rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    margin-top: 15px;
+  }
+  
+  .profile-bio {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2
+  }
+  
+  .detailTab {
+    padding: 1rem;
+  }
+  
+  .detailTab.title {
+    /* background-color: var(--pallette_5); */
+    color: var(--black);
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .detailTab.value {
+    width: 50%;
+    background-color: var(--pallette_1)x;
+  }
+  
+  .avatar {
+    width: 10rem;
+  }
+  
+  .list {
+     border-radius: 0%;
+    /* border-collapse: collapse; */
+  }
+  
+  .list tr th {
+    background-color: var(--pallette_1);
+    color: var(--black);
+    cursor: pointer;
+    height: 1.5rem;
+    min-width: 8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .list tr th:after {
+    font-size: 0.6rem;
+    padding-right: 0.5rem;
+  }
+  
+  .list .asc:after {
+    content: ' \25B2';
+  }
+  
+  .list .desc:after {
+    content: ' \25BC';
+  }
+  
+  .list tr td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .list .primary {
+    text-align: left;
+  }
+
+  .greeting{
+    text-decoration: underline;
+  }
+
+  .profile-header {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+  }
+
+  .title-details {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 35px;
+    padding-bottom: 25px;
+  }
