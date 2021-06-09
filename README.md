@@ -1,4 +1,3 @@
-## Earthquake Zen Garden
 
 #### Requirements
 
